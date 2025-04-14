@@ -28,7 +28,7 @@ HAVING
     OR first_date_watched <= first_date_purchased;
 
 
--- Analyze student behavior to understand conversion from free to paid:
+-- Analyse student behavior to understand conversion from free to paid:
 -- Step 1: Create a CTE (student_behavior) to collect for each student:
 --   - Registration date
 --   - First video watched date
